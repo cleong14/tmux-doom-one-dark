@@ -12,7 +12,7 @@ tmux set-option -g message-command-style 'bg=#282c34,fg=#bbc2cf' \; \
   set-option -g status-right-style 'bold' \; \
   set-option -g status-style 'bg=#1b2229,fg=#bbc2cf' \; \
   set-option -g window-status-current-format ' [#I] #W ' \; \
-  set-option -g window-status-current-style 'bg=#51afef,fg=#282c34' \; \
+  set-option -g window-status-current-style 'bg=#51afef,fg=#282c34,bold' \; \
   set-option -g window-status-format ' [#I] #W ' \; \
   set-option -g window-status-separator ' ' \; \
   set-option -g window-status-style '' \; \
