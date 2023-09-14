@@ -2,7 +2,7 @@
 
 tmux set-option -g message-command-style 'bg=#282c34,fg=#bbc2cf' \; \
   set-option -g message-style 'bg=#282c34,fg=#bbc2cf' \; \
-  set-option -g mode-style 'bg=#2257a0,fg=#171d23' \; \
+  set-option -g mode-style 'bg=#2257a0' \; \
   set-option -g status-justify left \; \
   set-option -g status-left '  #{=28:session_name}  ' \; \
   set-option -g status-left-length 32 \; \
@@ -16,5 +16,5 @@ tmux set-option -g message-command-style 'bg=#282c34,fg=#bbc2cf' \; \
   set-option -g window-status-format ' [#I] #W ' \; \
   set-option -g window-status-separator ' ' \; \
   set-option -g window-status-style '' \; \
-  set-option -g copy-mode-current-match-style 'bg=#2257a0,fg=#171d23,bold' \; \
-  set-option -g copy-mode-match-style 'bg=#51afef,fg=#171d23,bold'
+  set-option -g copy-mode-current-match-style 'bg=#2257a0,bold' \; \
+  set-option -g copy-mode-match-style 'bg=#2257a0'
