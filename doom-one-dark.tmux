@@ -3,6 +3,7 @@
 tmux set-option -g message-command-style 'bg=#282c34,fg=#bbc2cf' \; \
   set-option -g message-style 'bg=#282c34,fg=#bbc2cf' \; \
   set-option -g mode-style 'bg=#2257a0' \; \
+  set-option -g cursor-colour 'bg=#51afef,fg=#1D2026' \; \
   set-option -g status-justify left \; \
   set-option -g status-left '  #{=28:session_name}  ' \; \
   set-option -g status-left-length 32 \; \
