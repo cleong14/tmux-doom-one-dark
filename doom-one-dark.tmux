@@ -7,7 +7,7 @@ tmux set-option -g message-command-style 'bg=#282c34,fg=#bbc2cf' \; \
   set-option -g status-left '  #{=28:session_name}  ' \; \
   set-option -g status-left-length 32 \; \
   set-option -g status-left-style 'bold' \; \
-  set-option -g status-right '  #{pomodoro_status}  |  %R  |  %d %b  ' \; \
+  set-option -g status-right '  #{pomodoro_status}  |  #{pomodoro_show_intervals}  |  %R  |  %d %b  ' \; \
   set-option -g status-right-length 32 \; \
   set-option -g status-right-style 'bold' \; \
   set-option -g status-style 'bg=#1b2229,fg=#bbc2cf' \; \
