@@ -16,5 +16,5 @@ tmux set-option -g message-command-style 'bg=#171d23,fg=#bbc2cf' \; \
   set-option -g window-status-format ' [#I] #W ' \; \
   set-option -g window-status-separator ' ' \; \
   set-option -g window-status-style '' \; \
-  set-option -g copy-mode-current-match-style 'bg=#2257a0,fg=#171d23,bold' \; \
-  set-option -g copy-mode-match-style 'bg=#2257a0,fg=#171d23'
+  set-option -g copy-mode-current-match-style 'bg=#2257a0,bold' \; \
+  set-option -g copy-mode-match-style 'bg=#2257a0'
