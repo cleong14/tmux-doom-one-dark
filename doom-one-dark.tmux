@@ -10,7 +10,7 @@ tmux set-option -g message-command-style 'bg=#141a1f,fg=#bbc2cf' \; \
   set-option -g status-right '  #{pomodoro_status}  |  %R  |  %d %b  ' \; \
   set-option -g status-right-length 100 \; \
   set-option -g status-right-style 'bold' \; \
-  set-option -g status-style 'bg=#1b2229,fg=#bbc2cf' \; \
+  set-option -g status-style 'bg=#181e24,fg=#bbc2cf' \; \
   set-option -g window-status-current-format ' [#I] #W ' \; \
   set-option -g window-status-current-style 'bg=#51afef,fg=#141a1f,bold' \; \
   set-option -g window-status-format ' [#I] #W ' \; \
